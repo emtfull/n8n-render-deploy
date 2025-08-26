@@ -1,6 +1,7 @@
 services:
   - type: web
+    plan: free
+    runtime: image
     name: n8n-automation
-    env: docker
-    dockerfilePath: ./Dockerfile
-    healthCheckPath: /healthz
+    image:
+      url: docker.io/n8nio/n8n:latest
