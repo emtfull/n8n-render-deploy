@@ -1,0 +1,23 @@
+# Security - NEVER commit these
+.env
+.env.local
+.env.production
+secrets/
+credentials.json
+
+# N8N files
+.n8n/
+database.sqlite
+
+# Logs
+*.log
+logs/
+
+# System files  
+.DS_Store
+Thumbs.db
+node_modules/
+
+# IDE files
+.vscode/
+.idea/
