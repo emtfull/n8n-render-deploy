@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: n8n-automation
+    name: n8n
     env: docker
     dockerfilePath: ./Dockerfile
     healthCheckPath: /healthz
